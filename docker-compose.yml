@@ -21,8 +21,7 @@ services:
       SENTRY_EMAIL_HOST: smtp
       # GITHUB_APP_ID: 'GitHub Application Client ID'
       # GITHUB_API_SECRET: 'GitHub Application Client Secret'
-      # GITHUB_EXTENDED_PERMISSIONS: ['repo']
-      # SOCIAL_AUTH_REDIRECT_IS_HTTPS: True
+      # SOCIAL_AUTH_REDIRECT_IS_HTTPS: 'True'
     volumes:
       - ./data/sentry:/var/lib/sentry/files
 
