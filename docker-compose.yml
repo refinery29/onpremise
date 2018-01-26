@@ -19,7 +19,7 @@ services:
       SENTRY_REDIS_HOST: redis
       SENTRY_POSTGRES_HOST: postgres
       SENTRY_EMAIL_HOST: smtp
-      SENTRY_USE_SSL: true
+      SENTRY_USE_SSL: 1
       # GITHUB_APP_ID: 'GitHub Application Client ID'
       # GITHUB_API_SECRET: 'GitHub Application Client Secret'
       # SOCIAL_AUTH_REDIRECT_IS_HTTPS: 'True'
